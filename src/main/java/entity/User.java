@@ -84,13 +84,35 @@ public class User {
 	
 	
 	
-	public Court reserveCourt()
+	/**  
+	* @Title: reserveCourt  
+	* @Description: TODO预定，更新
+	* @param @return    参数  
+	* @return Court    返回类型  
+	* @throws  
+	*/  
+	public Court reserveCourt(Court court)
 	{
-		Court court = null;
+		Court court1 = null;
 		String sqlString = "";
 		
 		
 		return court;
+	}
+	
+	/**  
+	* @Title: cancelCourt  
+	* @Description: TODO将传入的场地改为free状态 
+	* @param @return    参数  
+	* @return boolean    返回类型  
+	* @throws  
+	*/  
+	public boolean cancelCourt(Court court)
+	{
+		
+		
+		
+		return true;
 	}
 
 }

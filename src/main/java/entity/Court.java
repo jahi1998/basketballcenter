@@ -91,5 +91,20 @@ public class Court {
 		this.dateString = dateString;
 	}
 	
+	
+	
+	
+	/**  
+	* @Title: init_court  
+	* @Description: TODO date传入的是学期结束的时间，将数据库中的所有数据清除，然后新加入从系统当前日期到date的所有记录  
+	* @param @param date    参数  
+	* @return void    返回类型  
+	* @throws  
+	*/  
+	public static void init_court(String date)
+	{
+		String sqlString = "";
+	}
+	
 
 }
